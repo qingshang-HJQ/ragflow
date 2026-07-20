@@ -1,0 +1,82 @@
+[
+  {
+    "id": "q01",
+    "question": "（填写：文档里明确有答案的简单事实问题）",
+    "expected_answer_keywords": ["关键词1", "关键词2"],
+    "expected_source_hint": "sample/xxx.md",
+    "difficulty": "easy",
+    "notes": "用来验证检索是否命中正确片段"
+  },
+  {
+    "id": "q02",
+    "question": "",
+    "expected_answer_keywords": [],
+    "expected_source_hint": "",
+    "difficulty": "easy",
+    "notes": ""
+  },
+  {
+    "id": "q03",
+    "question": "",
+    "expected_answer_keywords": [],
+    "expected_source_hint": "",
+    "difficulty": "easy",
+    "notes": ""
+  },
+  {
+    "id": "q04",
+    "question": "（填写：需要跨多个片段综合的问题）",
+    "expected_answer_keywords": [],
+    "expected_source_hint": "",
+    "difficulty": "medium",
+    "notes": "观察 top_k 是否够用"
+  },
+  {
+    "id": "q05",
+    "question": "",
+    "expected_answer_keywords": [],
+    "expected_source_hint": "",
+    "difficulty": "medium",
+    "notes": ""
+  },
+  {
+    "id": "q06",
+    "question": "",
+    "expected_answer_keywords": [],
+    "expected_source_hint": "",
+    "difficulty": "medium",
+    "notes": ""
+  },
+  {
+    "id": "q07",
+    "question": "（填写：文档中不存在答案的问题）",
+    "expected_answer_keywords": ["不知道"],
+    "expected_source_hint": "",
+    "difficulty": "hard",
+    "notes": "观察模型是否胡编"
+  },
+  {
+    "id": "q08",
+    "question": "",
+    "expected_answer_keywords": [],
+    "expected_source_hint": "",
+    "difficulty": "hard",
+    "notes": ""
+  },
+  {
+    "id": "q09",
+    "question": "",
+    "expected_answer_keywords": [],
+    "expected_source_hint": "",
+    "difficulty": "easy",
+    "notes": ""
+  },
+  {
+    "id": "q10",
+    "question": "",
+    "expected_answer_keywords": [],
+    "expected_source_hint": "",
+    "difficulty": "medium",
+    "notes": ""
+  }
+]
